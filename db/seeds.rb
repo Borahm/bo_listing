@@ -33,10 +33,31 @@ Subcategory.where(name: 'rooms/shared', category_id: housing_category.id).first_
 Subcategory.where(name: 'vacation rentals', category_id: housing_category.id).first_or_create(name: 'vacation rentals', category_id: housing_category.id)
 
 #jobs
-Subcategory.where(name: 'accpimtomg&finance', category_id: housing_category.id).first_or_create(name: 'apts/housing', category_id: housing_category.id)
-Subcategory.where(name: 'housing swap', category_id: housing_category.id).first_or_create(name: 'housing swap', category_id: housing_category.id)
-Subcategory.where(name: 'housing wanted', category_id: housing_category.id).first_or_create(name: 'housing wanted', category_id: housing_category.id)
-Subcategory.where(name: 'office/commercial', category_id: housing_category.id).first_or_create(name: 'office/commercial', category_id: housing_category.id)
-Subcategory.where(name: 'parking/storage', category_id: housing_category.id).first_or_create(name: 'parking/storage', category_id: housing_category.id)
-Subcategory.where(name: 'rooms/shared', category_id: housing_category.id).first_or_create(name: 'rooms/shared', category_id: housing_category.id)
-Subcategory.where(name: 'vacation rentals', category_id: housing_category.id).first_or_create(name: 'vacation rentals', category_id: housing_category.id)
+Subcategory.where(name: 'accounting&finance', category_id: jobs_category.id).first_or_create(name: 'accounting&finance', category_id: jobs_category.id)
+Subcategory.where(name: 'administrative', category_id: jobs_category.id).first_or_create(name: 'administrative', category_id: jobs_category.id)
+Subcategory.where(name: 'business/management', category_id: jobs_category.id).first_or_create(name: 'business/management', category_id: jobs_category.id)
+Subcategory.where(name: 'customer service', category_id: jobs_category.id).first_or_create(name: 'customer service', category_id: jobs_category.id)
+Subcategory.where(name: 'education', category_id: jobs_category.id).first_or_create(name: 'education', category_id: jobs_category.id)
+Subcategory.where(name: 'general label', category_id: jobs_category.id).first_or_create(name: 'general label', category_id: jobs_category.id)
+Subcategory.where(name: 'human resources', category_id: jobs_category.id).first_or_create(name: 'human resources', category_id: jobs_category.id)
+
+#personals
+Subcategory.where(name: 'strictly platonic', category_id: personals_category.id).first_or_create(name: 'strictly platonic', category_id: personals_category.id)
+Subcategory.where(name: 'woman seeking women', category_id: personals_category.id).first_or_create(name: 'woman seeking women', category_id: personals_category.id)
+Subcategory.where(name: 'women seeking men', category_id: personals_category.id).first_or_create(name: 'women seeking men', category_id: personals_category.id)
+Subcategory.where(name: 'men seeking women', category_id: personals_category.id).first_or_create(name: 'men seeking women', category_id: personals_category.id)
+Subcategory.where(name: 'men seeking men', category_id: personals_category.id).first_or_create(name: 'men seeking men', category_id: personals_category.id)
+
+#for_sale
+Subcategory.where(name: 'antiques', category_id: for_sale_category.id).first_or_create(name: 'antiques', category_id: for_sale_category.id)
+Subcategory.where(name: 'applications', category_id: for_sale_category.id).first_or_create(name: 'applications', category_id: for_sale_category.id)
+Subcategory.where(name: 'arts&crafts', category_id: for_sale_category.id).first_or_create(name: 'arts&crafts', category_id: for_sale_category.id)
+Subcategory.where(name: 'bikes', category_id: for_sale_category.id).first_or_create(name: 'bikes', category_id: for_sale_category.id)
+Subcategory.where(name: 'boats', category_id: for_sale_category.id).first_or_create(name: 'boats', category_id: for_sale_category.id)
+
+#services
+Subcategory.where(name: 'automotive', category_id: services_category.id).first_or_create(name: 'automotive', category_id: services_category.id)
+Subcategory.where(name: 'beauty', category_id: services_category.id).first_or_create(name: 'beauty', category_id: services_category.id)
+Subcategory.where(name: 'legal', category_id: services_category.id).first_or_create(name: 'legal', category_id: services_category.id)
+Subcategory.where(name: 'household', category_id: services_category.id).first_or_create(name: 'household', category_id: services_category.id)
+Subcategory.where(name: 'lessons', category_id: services_category.id).first_or_create(name: 'lessons', category_id: services_category.id)
